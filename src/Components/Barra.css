@@ -1,0 +1,34 @@
+:root{
+    --jetblack: #282c34;
+    --stategrey: #738386;
+    --lightblue: #9DC7C8;
+    --sandybrown: #FA9F42;
+    --tigerorange: #F08700;
+}
+
+.cordabarra {
+    background-color: var(--jetblack) !important;
+    height: 8vh;
+}
+ul{
+    gap: 15px;
+}
+
+.bordinha {
+    background-color: var(--stategrey);
+    border-radius: 10%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.bordinha :hover {
+    color: var(--sandybrown);
+    background-color: var(--tigerorange);
+    border-radius: 10%;
+    
+}
+
+
+link{
+    color: white;
+}
