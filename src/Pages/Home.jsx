@@ -12,7 +12,7 @@ function Home() {
 
       <div className="row row-cols-1 row-cols-md-3 g-4">
 
-        <div className="col">
+        <div className="col ">
           <div className="card h-100">
             <img src="/Imagens/img30.png" className="card-img-top img-fluid w-75 mx-auto d-block" alt="Produto 1" />
             <div className="card-body">
